@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# App cache & local user settings
+.pixeltools/
+settings.json
+app_icons/
+
+# Temp test files, reverse-engineering dumps & logs
+scratch/
+scrcpy-win64-v5.0.1/
+*.axml
+*.arsc
+*.webp
+cyrillic_matches.txt
+*.png
+!tools/*.png
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.bak
